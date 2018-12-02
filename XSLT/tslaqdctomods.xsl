@@ -23,6 +23,7 @@
     dc:language processing parameter: there are multiple language values in the
     QDC.
   -->
+    <xsl:variable name="catalog" select="document('catalog.xml')"/>
 
     <xsl:param name="pLang">
         <l string="eng">english</l>
@@ -61,7 +62,7 @@
           <!-- rights -->
           <xsl:apply-templates select="dc:rights"/>
           <location>
-            <xsl:apply-templates select="dc:identifier[starts-with(., 'http://')]"/>
+            <xsl:apply-templates select="dc:identifier[starts-with(normalize-space(.), 'http://')]"/>
           </location>
           <!-- creator(s) -->
           <xsl:apply-templates select="dc:creator"/>
@@ -99,10 +100,14 @@
     </xsl:template>
   
     <!--identifier-->
-    <xsl:template match="dc:identifier[starts-with(., 'http://')]">
+    <xsl:template match="dc:identifier[starts-with(normalize-space(.), 'http://')]">
       <xsl:variable name="identifier-preview-url" select="replace(., '/cdm/ref', '/utils/getthumbnail')"/>
+      <xsl:variable name="iiif-manifest" select="concat(replace(replace(., 'cdm/ref/collection', 'digital/iiif'), '/id', ''), '/info.json')"/>
       <url usage="primary" access="object in context"><xsl:apply-templates/></url>
       <url access="preview"><xsl:value-of select="$identifier-preview-url"/></url>
+      <xsl:if test="normalize-space(.) = $catalog//@id">
+          <url note="iiif-manifest"><xsl:value-of select="$iiif-manifest"/></url>
+      </xsl:if>
     </xsl:template>
     
     <!-- creator(s) -->
