@@ -1,5 +1,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
     xmlns:oai="http://www.openarchives.org/OAI/2.0/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns="http://www.loc.gov/mods/v3"
     version="2.0" exclude-result-prefixes="mods">
     <xsl:output omit-xml-declaration="yes" method="xml" encoding="UTF-8" indent="yes"/>
     
@@ -12,28 +13,27 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+            <xsl:apply-templates select="mods:identifier"/>
             <xsl:apply-templates select="mods:titleInfo"/>
-            <xsl:apply-templates select="mods:typeOfResource"/>
-            <xsl:apply-templates select="mods:genre"/> <!-- copied over as found, also copied below for use as genre -->
-            <xsl:apply-templates select="mods:originInfo"/>
-            <xsl:apply-templates select="mods:language"/>
-            <xsl:apply-templates select="mods:physicalDescription"/>
             <xsl:apply-templates select="mods:abstract"/>
+            <xsl:apply-templates select="mods:name"/> <!-- not handing over unknowns to DLTN, though we do keep in UTK Islandora -->
+            <xsl:apply-templates select="mods:originInfo"/>
+            <xsl:apply-templates select="mods:physicalDescription"/>
             <xsl:apply-templates select="mods:note"/>
             <xsl:apply-templates select="mods:subject"/>
-            <xsl:apply-templates select="mods:relatedItem"/>
-            <xsl:apply-templates select="mods:identifier"/>
-            <xsl:apply-templates select="mods:accessCondition"/>
-            <xsl:apply-templates select="mods:part"/>
-            <xsl:apply-templates select="mods:recordInfo"/>
-            
-            <xsl:apply-templates select="mods:name"/> <!-- not handing over unknowns to DLTN, though we do keep in UTK Islandora -->
             <xsl:apply-templates select="mods:physicalDescription/mods:form" mode="form2genre"/> <!-- DPLA genre is UTK form - UTK form being copied over -->
+            <xsl:apply-templates select="mods:genre"/> <!-- copied over as found, also copied below for use as genre -->
+            <xsl:apply-templates select="mods:language"/>
+            <xsl:apply-templates select="mods:typeOfResource"/>
+            <xsl:apply-templates select="mods:relatedItem"/>
+            <xsl:apply-templates select="mods:part"/>
             <location>
                 <xsl:apply-templates select="mods:location/mods:physicalLocation"/>
                 <xsl:apply-templates select="mods:location/mods:url"/>
                 <xsl:apply-templates select="mods:location/mods:holdingExternal"/>
             </location>
+            <xsl:apply-templates select="mods:recordInfo"/>
+            <xsl:apply-templates select="mods:accessCondition"/>
         </mods>
     </xsl:template>
     
@@ -57,7 +57,18 @@
     </xsl:template>
 
     <xsl:template match="mods:originInfo">
-        <xsl:copy copy-namespaces="no"><xsl:copy-of select="mods:dateCreated[@encoding='edtf']" copy-namespaces="no"></xsl:copy-of></xsl:copy>
+        <xsl:copy copy-namespaces="no">
+            <xsl:choose>
+                <xsl:when test="mods:dateIssued[@encoding='edtf']">
+                    <dateCreated>
+                        <xsl:value-of select="mods:dateIssued[@encoding='edtf']"/>
+                    </dateCreated>
+                </xsl:when>
+                <xsl:when test="mods:dateCreated">
+                    <xsl:copy-of select="mods:dateCreated" copy-namespaces="no"/>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:copy>
     </xsl:template>
     
     <xsl:template match="mods:physicalDescription/mods:form" mode="form2genre"> <!-- DPLA genre is UTK form - UTK form being copied over -->
