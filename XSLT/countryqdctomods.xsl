@@ -101,7 +101,7 @@
   
   <!-- subject(s) -->
   <!-- for subjects with a trailing ';' -->
-  <xsl:template match="dc:subject[ends-with(., ';')]">
+  <xsl:template match="dc:subject[contains(., ';')]">
     <!--<xsl:variable name="subj-tokens" select="tokenize(functx:substring-before-last(., ';'), ';')"/>-->
     <xsl:variable name="subj-tokens" select="tokenize(.,';')"/>
     <xsl:for-each select="$subj-tokens">
@@ -112,7 +112,7 @@
   </xsl:template>
   
   <!-- a template to match subjects that do *not* end with a trailing ';' -->
-  <xsl:template match="dc:subject[not(ends-with(., ';'))]">
+  <xsl:template match="dc:subject[not(contains(., ';'))]">
     <subject>
       <topic><xsl:apply-templates/></topic>
     </subject>
