@@ -100,14 +100,14 @@
   </xsl:template>
   
   <!-- subject(s) -->
-  <!-- for subjects with a trailing ';' -->
   <xsl:template match="dc:subject[contains(., ';')]">
-    <!--<xsl:variable name="subj-tokens" select="tokenize(functx:substring-before-last(., ';'), ';')"/>-->
     <xsl:variable name="subj-tokens" select="tokenize(.,';')"/>
     <xsl:for-each select="$subj-tokens">
-      <subject>
-        <topic><xsl:value-of select="normalize-space(.)"/></topic>
+      <xsl:if test=". != ''">
+        <subject>
+          <topic><xsl:value-of select="normalize-space(.)"/></topic>
       </subject>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   
