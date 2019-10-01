@@ -96,7 +96,7 @@
                 <languageOfCataloging>
                     <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
                 </languageOfCataloging>
-            <recordOrigin>Record has been transformed into MODS 3.5 from an XOAI record by the Digital Library of Tennessee, a service hub of the Digital Public Library of America, using a stylesheet available at https://github.com/digitallibraryoftennessee/DLTN_XSLT. Metadata originally created in an XOAI record in DSPACE (data dictionary available: https://dltn-technical-docs.readthedocs.io/en/latest/mappings/crossroads.html#mapping-tables).</recordOrigin>
+            <recordOrigin>Record has been transformed into MODS 3.5 from an XOAI record by the Digital Library of Tennessee, a service hub of the Digital Public Library of America, using a stylesheet available at https://github.com/digitallibraryoftennessee/DLTN_XSLT. Metadata originally created in an XOAI record in DSPACE (data dictionary available: https://dltn-technical-docs.readthedocs.io/en/latest/mappings/rhodes.html#mapping-tables).</recordOrigin>
 </recordInfo>
             
             <!-- typeOfResource -->
