@@ -4,6 +4,7 @@ utk_acwiley
 utk_agee
 utk_agrutesc
 utk_agrtfhs
+utk_agrtfn
 utk_airscoop
 utk_alumnus
 utk_arrow
@@ -30,6 +31,7 @@ utk_indtruth
 utk_kefauver
 utk_kefauver1
 utk_knoxgardens
+utk_marchingband
 utk_mpabaker
 utk_mugwump
 utk_phoenix
