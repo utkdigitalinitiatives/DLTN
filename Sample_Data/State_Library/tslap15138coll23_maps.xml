@@ -1,0 +1,219 @@
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2019-11-21T20:19:07Z</responseDate>
+    <request verb="ListRecords" set="p15138coll23" metadataPrefix="oai_qdc">http://localhost:8080/repox/OAIHandler</request>
+    <ListRecords>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:01667625-4661-4db4-8882-8bdb53a2d9c5
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>Survey of William Jackson's land</dc:title>
+                    <dc:source>Chandler-Jackson Family Papers, 1787-1868</dc:source>
+                    <dc:subject>Maps</dc:subject>
+                    <dc:source>Tennessee State Library and Archives</dc:source>
+                    <dcterms:medium>Maps; Surveys</dcterms:medium>
+                    <dcterms:references>
+                        http://sos.tn.gov/products/tsla/chandler-jackson-family-papers-1787-1868
+                    </dcterms:references>
+                    <dc:source>I-B-1, B.1, F.14</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/5235
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:2ec50910-ae50-4622-990d-feded799a3c7
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>Map of second civil district of Knox County</dc:title>
+                    <dc:description>
+                        Hand-drawn map of Knox County's 2nd civil district showing residences, schools, churches, ferries and quarries. The Holston and French Broad rivers are drawn and colored blue. The pink and penciled notations seem to be added after the original map was completed.
+                    </dc:description>
+                    <dc:creator>Locke, C. A.</dc:creator>
+                    <dcterms:spatial>75 x 101 cm</dcterms:spatial>
+                    <dc:coverage>Knox County (Tenn.)</dc:coverage>
+                    <dc:date>1886</dc:date>
+                    <dc:subject>
+                        Knox County (Tenn.)--Maps, Manuscript; French Broad River (N.C. and Tenn.); Holston River (Va. and Tenn.)
+                    </dc:subject>
+                    <dc:subject>
+                        Maps; Rivers; Dwellings; Schools; Churches; Ferries; Quarries
+                    </dc:subject>
+                    <dc:source>Tennessee State Library and Archives</dc:source>
+                    <dc:identifier>45385</dc:identifier>
+                    <dcterms:isPartOf>Maps at the Tennessee State Library and Archives</dcterms:isPartOf>
+                    <dc:type>Still Image</dc:type>
+                    <dc:format>Image/jp2</dc:format>
+                    <dcterms:medium>Maps</dcterms:medium>
+                    <dc:source>M-15-24</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/10349
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:36e4e4f5-a2c0-4793-acaf-77c355024b21
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>WWI Battle maps scrapbook Vol. I</dc:title>
+                    <dc:description>
+                        Scrapbook Vol. I. Includes original battle maps of Paris, Meaux, Condé-en-Brie, Fère-en-Tardenois, Fismes, Chemin des Dames, Mirecourt, Nancy, Thiaucourt, Chamdley, Heudicourt, Seicheprey and Cheminot. Maps mounted on cloth and folded.
+                    </dc:description>
+                    <dc:source>Dickinson, Jacob McGavock Papers, 1812-1946</dc:source>
+                    <dc:subject>Maps</dc:subject>
+                    <dc:source>
+                        1, 24-27, 126, 142, 143, 154, 233, 262, 340, 1169, 60-233
+                    </dc:source>
+                    <dc:source>Tennessee State Library and Archives</dc:source>
+                    <dcterms:medium>Maps</dcterms:medium>
+                    <dcterms:isFormatOf>836</dcterms:isFormatOf>
+                    <dcterms:references>
+                        http://sos.tn.gov/products/tsla/dickinson-jacob-mcgavock-papers-1812-1946
+                    </dcterms:references>
+                    <dc:source>I-E-6, B.78</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/4692
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:53a5dfd0-5dea-4460-aa5d-725e1542895e
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>United States</dc:title>
+                    <dc:description>1938 reprint of 1932 map.</dc:description>
+                    <dc:creator>Geological Survey (U.S.)</dc:creator>
+                    <dcterms:spatial>100 x 123 cm</dcterms:spatial>
+                    <dc:coverage>United States</dc:coverage>
+                    <dc:date>1938</dc:date>
+                    <dc:publisher>Geological Survey (U.S.)</dc:publisher>
+                    <dc:source>TSLA Map Collection</dc:source>
+                    <dc:subject>Maps</dc:subject>
+                    <dc:source>Tennessee State Library and Archives</dc:source>
+                    <dcterms:medium>Maps</dcterms:medium>
+                    <dc:source>Map 2471</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/4846
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:7e7fecc1-a944-4f53-8d2f-942a6b360b11
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>Benton County, Tennessee, 1922</dc:title>
+                    <dc:description>
+                        This State Geological Survey map of Benton County (Tenn." surveyed in 1920-21 by E.S. Perry for the State Geological Commission, shows residences and names smaller communities as well as river landings, streams, roads, churches, schools, stores, and a portion of the Louisville and Nashville Railroad. This map shows every house structure, watershed and hollow and has the advantage of showing Benton County prior to the inundation of Kentucky Lake in the 1940s, which radically altered the human and physical geography of the area.
+                    </dc:description>
+                    <dc:description>
+                        These early 20th century maps from the Tennessee Geological Survey of counties are extremely detailed and revealing of the communities as well as the economic and historical geography of Tennessee.
+                    </dc:description>
+                    <dc:creator>Perry, E. S.</dc:creator>
+                    <dcterms:spatial>94 x 46 cm</dcterms:spatial>
+                    <dc:coverage>Benton County (Tenn.)</dc:coverage>
+                    <dc:coverage>36.06978</dc:coverage>
+                    <dc:coverage>-88.06827</dc:coverage>
+                    <dc:date>1922</dc:date>
+                    <dc:publisher>Tennessee. State Geological Survey</dc:publisher>
+                    <dc:source>TSLA Map Collection</dc:source>
+                    <dc:subject>
+                        Geological surveys; Louisville and Nashville Railroad Company
+                    </dc:subject>
+                    <dc:subject>Maps; Churches; Schools; Dwellings; Railroads</dc:subject>
+                    <dc:source>Tennessee State Library and Archives</dc:source>
+                    <dc:identifier>36812</dc:identifier>
+                    <dc:source>70997979</dc:source>
+                    <dc:type>Still Image</dc:type>
+                    <dc:format>Image/jpeg</dc:format>
+                    <dcterms:medium>Maps</dcterms:medium>
+                    <dc:source>Map 3240</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/360
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>
+                    urn:dpla.lib.utk.edu.p15138coll23:cff26933-5efd-4de4-abf1-87a0b9d867f3
+                </identifier>
+                <datestamp>2019-09-16</datestamp>
+                <setSpec>p15138coll23</setSpec>
+            </header>
+            <metadata>
+                <oai_qdc:qualifieddc xmlns:oai_qdc="http://worldcat.org/xmlschemas/qdc-1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd">
+                    <dc:title>Topographical map of Standingstone quadrangle</dc:title>
+                    <dc:description>
+                        4 copies. Some have markings, from possible research.
+                    </dc:description>
+                    <dcterms:spatial>45 x 36 cm</dcterms:spatial>
+                    <dc:coverage>
+                        Overton County (Tenn.) Fentress County (Tenn.) Cumberland County (Tenn.) Putnam County (Tenn.)
+                    </dc:coverage>
+                    <dc:source>Adams, Paul Jay Papers, 1912-1977</dc:source>
+                    <dc:subject>Maps</dc:subject>
+                    <dcterms:medium>Maps</dcterms:medium>
+                    <dcterms:references>
+                        http://sos.tn.gov/products/tsla/adams-paul-jay-papers-1912-1977
+                    </dcterms:references>
+                    <dc:source>XII-J-1</dc:source>
+                    <dc:rights>
+                        No copyright - United States: http://rightsstatements.org/vocab/NoC-US/1.0/
+                    </dc:rights>
+                    <dc:identifier>
+                        http://cdm15138.contentdm.oclc.org/cdm/ref/collection/p15138coll23/id/4940
+                    </dc:identifier>
+                </oai_qdc:qualifieddc>
+            </metadata>
+        </record>
+    </ListRecords>
+</OAI-PMH>
