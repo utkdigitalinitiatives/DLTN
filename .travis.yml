@@ -15,7 +15,7 @@ notifications:
 
 before_script:
   - mkdir working_directory
-  - curl http://central.maven.org/maven2/net/sf/saxon/saxon/8.7/saxon-8.7.jar > working_directory/saxon-8.7.jar
+  - curl https://repo1.maven.org/maven2/net/sf/saxon/saxon/8.7/saxon-8.7.jar > working_directory/saxon-8.7.jar
 
 script:
   - cd tests
