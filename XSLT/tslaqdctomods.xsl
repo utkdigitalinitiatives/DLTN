@@ -86,7 +86,7 @@
           <!-- spatial -->
           <xsl:apply-templates select="dcterms:spatial"/>
           <recordInfo>
-              <recordContentSource>Tennessee State Library &amp; Archives</recordContentSource>
+              <recordContentSource>Tennessee State Library and Archives</recordContentSource>
               <languageOfCataloging>
                   <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
               </languageOfCataloging>
