@@ -52,6 +52,9 @@ utk_univmonthly
 utk_utsmc
 utk_vanvactor
 utk_voice
+utk_voloh
 utk_vpmoore
+utk_wcc
 utk_wderfilms
+utk_webster
 utk_yrb
