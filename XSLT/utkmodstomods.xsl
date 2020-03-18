@@ -25,6 +25,7 @@
         <l string="Creator">Author</l>
         <l string="Creator">Photographer</l>
         <l string="Creator">Illustrator</l>
+        <l string="Creator">Interviewee</l>
         <l string="Creator">Composer</l>
         <l string="Creator">Performer</l>
         <l string="Creator">Lyricist</l>
@@ -42,6 +43,7 @@
         <l string="Contributor">Musical director</l>
         <l string="Contributor">Arranger</l>
         <l string="Contributor">Issuing body</l>
+        <l string="Contributor">Interviewer</l>
         <l string="Contributor">Attributed name</l>
         <l string="Contributor">Standards body</l>
         <l string="Contributor">Other</l>
@@ -58,6 +60,7 @@
         <l string="Contributor">Printer of plates</l>
         <l string="Contributor">Distributor</l>
         <l string="Contributor">Correspondent</l>
+        <l string="Contributor">Witness</l>
     </xsl:param>
 
     <!-- DPLA Genres -->
