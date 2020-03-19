@@ -21,45 +21,45 @@
 
     <!-- Good roleTerms to DC Garbage -->
     <xsl:param name="pRole">
-        <l string="Creator">Creator</l>
+        <l string="Creator">Architect</l>
+        <l string="Creator">Artist</l>
         <l string="Creator">Author</l>
-        <l string="Creator">Photographer</l>
+        <l string="Creator">Cartographer</l>
+        <l string="Creator">Composer</l>
+        <l string="Creator">Creator</l>
+        <l string="Creator">Designer</l>
+        <l string="Creator">Engraver</l>
         <l string="Creator">Illustrator</l>
         <l string="Creator">Interviewee</l>
-        <l string="Creator">Composer</l>
-        <l string="Creator">Performer</l>
-        <l string="Creator">Lyricist</l>
-        <l string="Creator">Artist</l>
         <l string="Creator">Lithographer</l>
-        <l string="Creator">Cartographer</l>
-        <l string="Creator">Engraver</l>
-        <l string="Creator">Designer</l>
-        <l string="Creator">Architect</l>
-        <l string="Contributor">Editor</l>
-        <l string="Contributor">Copyright holder</l>
-        <l string="Contributor">Contributor</l>
-        <l string="Contributor">Production company</l>
-        <l string="Contributor">Stage director</l>
-        <l string="Contributor">Musical director</l>
+        <l string="Creator">Lyricist</l>
+        <l string="Creator">Performer</l>
+        <l string="Creator">Photographer</l>
         <l string="Contributor">Arranger</l>
-        <l string="Contributor">Issuing body</l>
-        <l string="Contributor">Interviewer</l>
         <l string="Contributor">Attributed name</l>
-        <l string="Contributor">Standards body</l>
-        <l string="Contributor">Other</l>
-        <l string="Contributor">Donor</l>
         <l string="Contributor">Client</l>
+        <l string="Contributor">Compiler</l>
         <l string="Contributor">Contractor</l>
+        <l string="Contributor">Contributor</l>
+        <l string="Contributor">Copyright holder</l>
+        <l string="Contributor">Correspondent</l>
+        <l string="Contributor">Distributor</l>
+        <l string="Contributor">Donor</l>
+        <l string="Contributor">Editor</l>
         <l string="Contributor">Former owner</l>
+        <l string="Contributor">Honoree</l>
+        <l string="Contributor">Interviewer</l>
+        <l string="Contributor">Issuing body</l>
+        <l string="Contributor">Musical director</l>
         <l string="Contributor">Originator</l>
+        <l string="Contributor">Other</l>
         <l string="Contributor">Owner</l>
         <l string="Contributor">Printer</l>
-        <l string="Contributor">Publisher</l>
-        <l string="Contributor">Compiler</l>
-        <l string="Contributor">Honoree</l>
         <l string="Contributor">Printer of plates</l>
-        <l string="Contributor">Distributor</l>
-        <l string="Contributor">Correspondent</l>
+        <l string="Contributor">Production company</l>
+        <l string="Contributor">Publisher</l>
+        <l string="Contributor">Stage director</l>
+        <l string="Contributor">Standards body</l>
         <l string="Contributor">Witness</l>
     </xsl:param>
 
@@ -104,7 +104,7 @@
         <f authority="aat" uri="http://vocab.getty.edu/aat/300123013">signs (declatory or advertising
             artifacts)</f>
         <f authority="aat" uri="http://vocab.getty.edu/aat/300028633">sound recordings</f>
-        <f authority="aat" uri="http://vocab.getty.edu/aat/300127478">trasnparencies</f>
+        <f authority="aat" uri="http://vocab.getty.edu/aat/300127478">transparencies</f>
         <f authority="aat" uri="http://vocab.getty.edu/aat/300028682">video recordings</f>
     </xsl:param>
 
