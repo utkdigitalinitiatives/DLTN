@@ -121,7 +121,7 @@
     <!--identifier-->
     <xsl:template match="dc:identifier[starts-with(normalize-space(.), 'http://')]">
       <xsl:variable name="identifier-preview-url" select="replace(., '/cdm/ref', '/utils/getthumbnail')"/>
-      <xsl:variable name="iiif-manifest" select="concat(replace(replace(., 'cdm/ref/collection', 'digital/iiif'), '/id', ''), '/info.json')"/>
+        <xsl:variable name="iiif-manifest" select="concat(replace(replace(., 'cdm/ref/collection', 'iiif/info'), '/id', ''), '/manifest.json')"/>
       <url usage="primary" access="object in context"><xsl:apply-templates/></url>
       <url access="preview"><xsl:value-of select="$identifier-preview-url"/></url>
       <xsl:if test="normalize-space(.) = $catalog//@id">
