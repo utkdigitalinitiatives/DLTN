@@ -20,7 +20,7 @@
             <xsl:variable name="pointer" select="substring-after($recordinfo,'/id/')"/>
             <url access="preview"><xsl:value-of select="concat($contentdmroot,'/utils/getthumbnail/collection/',$alias,'/id/',$pointer)"/></url> 
             <!--CONTENTdm thumbnail url-->
-            <xsl:variable name="iiif-manifest" select="concat(replace(replace(., 'cdm/ref/collection', 'digital/iiif'), '/id', ''), '/manifest.json')"/>
+            <xsl:variable name="iiif-manifest" select="concat(replace(replace(., 'cdm/ref/collection', 'iiif/info'), '/id', ''), '/manifest.json')"/>
             <xsl:if test="normalize-space(.) = $catalogs//@id">
                 <url note="iiif-manifest"><xsl:value-of select="$iiif-manifest"/></url>
             </xsl:if>
