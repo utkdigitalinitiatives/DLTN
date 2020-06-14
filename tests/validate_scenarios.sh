@@ -62,7 +62,8 @@ testValidityOfTSLAqdctoMODS() {
     mkdir ${DATADIR}
     cat $TSLA | while read line; do
         curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
-        cat "$DATADIR/$line.xml"
+        TOPOFFILE=$(head "$DATADIR/$line.xml")
+        echo $TOPOFFILE
     done
     for filename in ${DATADIR}/*.xml; do
         ${SAXON} ${filename} ${STYLESHEETS}/tslaqdctomods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
