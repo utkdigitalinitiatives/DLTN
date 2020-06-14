@@ -61,9 +61,9 @@ testValidityOfTSLAqdctoMODS() {
     DATADIR="../working_directory/tsla_qdc"
     mkdir ${DATADIR}
     cat $TSLA | while read line; do
-        curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
+        curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
         TOPOFFILE=$(head "$DATADIR/$line.xml")
-        CURLRESPONSE=$(curl -s -o /dev/null -I -w "%{http_code}" "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line")
+        CURLRESPONSE=$(curl -s -o /dev/null -I -w "%{http_code}" "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line")
         echo $CURLRESPONSE
     done
     for filename in ${DATADIR}/*.xml; do
