@@ -49,7 +49,7 @@ testValidityOfCountryMusicHallofFame() {
 }
 
 testValidityOfCountryMusicHallofFameHatch(){
-    curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=cmhf_hatch" 2>&1 2>/dev/null 1>"delete.xml"
+    curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=cmhf_hatch" 2>&1 2>/dev/null 1>"delete.xml"
     ${SAXON} delete.xml ${STYLESHEETS}/countryqdctomods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
     RESPONSE=$(xmllint --noout --schema ${DLTNMODS} ${TESTFILE} 2>&1 1>/dev/null | cat)
     assertEquals "${RESPONSE}" "${TESTFILE} validates"
