@@ -12,6 +12,14 @@ testJavaInstalled() {
     assertNotNull $(which java)
 }
 
+testShunitIntalled() {
+    assertNotNull $(which shunit2)
+}
+
+testCurlInstalled() {
+    assertNotNull $(which curl)
+}
+
 # Rhodes and Crossroads to Freedom
 testValidityOfSternberg() {
     ${SAXON} ${SAMPLEDATA}/Rhodes/sternberg.xml ${STYLESHEETS}/rhodes_sternberg_xoai_to_mods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
