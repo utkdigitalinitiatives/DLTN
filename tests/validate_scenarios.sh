@@ -12,6 +12,14 @@ testJavaInstalled() {
     assertNotNull $(which java)
 }
 
+testShunitIntalled() {
+    assertNotNull $(which shunit2)
+}
+
+testCurlInstalled() {
+    assertNotNull $(which curl)
+}
+
 # Rhodes and Crossroads to Freedom
 testValidityOfSternberg() {
     ${SAXON} ${SAMPLEDATA}/Rhodes/sternberg.xml ${STYLESHEETS}/rhodes_sternberg_xoai_to_mods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
@@ -41,7 +49,7 @@ testValidityOfCountryMusicHallofFame() {
 }
 
 testValidityOfCountryMusicHallofFameHatch(){
-    curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=cmhf_hatch" 2>&1 2>/dev/null 1>"delete.xml"
+    curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=cmhf_hatch" 2>&1 2>/dev/null 1>"delete.xml"
     ${SAXON} delete.xml ${STYLESHEETS}/countryqdctomods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
     RESPONSE=$(xmllint --noout --schema ${DLTNMODS} ${TESTFILE} 2>&1 1>/dev/null | cat)
     assertEquals "${RESPONSE}" "${TESTFILE} validates"
@@ -53,7 +61,9 @@ testValidityOfTSLAqdctoMODS() {
     DATADIR="../working_directory/tsla_qdc"
     mkdir ${DATADIR}
     cat $TSLA | while read line; do
-        curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
+        curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
+        TOPOFFILE=$(head "$DATADIR/$line.xml")
+        CURLRESPONSE=$(curl -s -o /dev/null -I -w --insecure "%{http_code}" "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=oai_qdc&set=$line")
     done
     for filename in ${DATADIR}/*.xml; do
         ${SAXON} ${filename} ${STYLESHEETS}/tslaqdctomods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
@@ -69,7 +79,7 @@ testValidityOfUTCQDCtoMODS() {
     DATADIR="../working_directory/utc"
     mkdir ${DATADIR}
     cat $UTK | while read line; do
-        curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
+        curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
     done
     for filename in ${DATADIR}/*.xml; do
         TESTFILE="${filename}.test"
@@ -86,7 +96,7 @@ testValidityOfUTKMODStoMODS() {
     DATADIR="../working_directory/utk"
     mkdir ${DATADIR}
     cat $UTK | while read line; do
-        curl "https://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
+        curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods&set=$line" 2>&1 2>/dev/null 1>"$DATADIR/$line.xml"
     done
     for filename in ${DATADIR}/*.xml; do
         TESTFILE="${filename}.test"

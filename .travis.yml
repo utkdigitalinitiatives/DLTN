@@ -8,6 +8,7 @@ addons:
       - libxml2-utils
       - shunit2
       - openjdk-8-jre
+      - openssl
 
 notifications:
   email:
