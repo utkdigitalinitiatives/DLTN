@@ -107,4 +107,12 @@ testValidityOfUTKMODStoMODS() {
     rm -rf ${DATADIR}
 }
 
+# Test New Memphis XSLT
+testValidityOfNewMemphisPublic(){
+    curl "http://dpla.lib.utk.edu/repox/OAIHandler?verb=ListRecords&set=memphispublic_p16108coll5&metadataPrefix=oai_dc" 2>&1 2>/dev/null 1>"temp_memphis.xml"
+    ${SAXON} delete.xml ${STYLESHEETS}/memphisp16108coll5dctomods.xsl 2>&1 2>/dev/null 1>${TESTFILE}
+    RESPONSE=$(xmllint --noout --schema ${DLTNMODS} ${TESTFILE} 2>&1 1>/dev/null | cat)
+    assertEquals "${RESPONSE}" "${TESTFILE} validates"
+}
+
 . shunit2
