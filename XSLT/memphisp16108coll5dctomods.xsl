@@ -134,8 +134,6 @@
                     </role>
                 </name>    
             </xsl:when>
-        </xsl:choose>
-        <xsl:choose>
             <xsl:when test="starts-with(., 'Donated by')">
                 <xsl:variable name="contributor-only-2" select="replace(., 'Donated by ', '')"/>
                 <name>
@@ -175,7 +173,7 @@
                  <xsl:when test="ends-with(., ';')">
                     <subject>
                         <topic>
-                            <xsl:apply-templates select="substring(., 1, string-length(.) -1)"/>
+                            <xsl:value-of select="substring(., 1, string-length(.) -1)"/>
                         </topic>
                     </subject>
                  </xsl:when>
