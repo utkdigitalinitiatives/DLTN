@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:oai_dc='http://www.openarchives.org/OAI/2.0/oai_dc/' xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:oai_dc='http://www.openarchives.org/OAI/2.0/oai_dc/' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
     version="2.0" xmlns="http://www.loc.gov/mods/v3">
     
     <!-- output settings -->
@@ -37,10 +37,10 @@
             <xsl:apply-templates select="dc:description[1]"/>
             
             <!-- contributor -->
-            <xsl:apply-templates select="dc:contributor[1]"/>
+            <xsl:apply-templates select="dc:contributor"/>
             
             <!-- originInfo> -->
-            <xsl:apply-templates select="dc:date[1]"/>
+            <xsl:apply-templates select="dc:date"/>
             
             <!-- subject(s) -->
             <xsl:apply-templates select="dc:subject"/>
@@ -52,7 +52,6 @@
             <xsl:apply-templates select="dc:publisher"/>
             
             <!-- rights or accessCondition -->
-            <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/InC/1.0/">In Copyright</accessCondition>
         
         </mods>
     </xsl:template>
@@ -60,12 +59,21 @@
     <!-- title -->
     <xsl:template match="dc:title">
         <xsl:choose>
-            <xsl:when test="contains(., 'Collection')">    
+            <xsl:when test="contains(., 'Edward Dougherty Collection')">    
                 <relatedItem type="host" displayLabel="Project">
                     <titleInfo>
                         <title><xsl:apply-templates/></title>
                     </titleInfo>
                 </relatedItem>
+                <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/InC/1.0/">In Copyright</accessCondition>
+            </xsl:when>
+            <xsl:when test="contains(., 'Department of Energy Photograph Collection')">    
+                <relatedItem type="host" displayLabel="Project">
+                    <titleInfo>
+                        <title><xsl:apply-templates/></title>
+                    </titleInfo>
+                </relatedItem>
+                <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
             </xsl:when>
             <xsl:otherwise>
                 <titleInfo>
@@ -108,7 +116,11 @@
     
     <!-- originInfo -->
     <xsl:template match="dc:date">
-        <originInfo><dateCreated><xsl:apply-templates/></dateCreated></originInfo>
+        <xsl:choose>
+            <xsl:when test="starts-with(., '19')">
+                <originInfo><dateCreated><xsl:apply-templates/></dateCreated></originInfo>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     
     <!-- subject(s) -->
