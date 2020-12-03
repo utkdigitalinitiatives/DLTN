@@ -556,7 +556,7 @@
                     </xsl:when>
                     <!-- keep public domain test but map to no copyright - united states -->
                     <xsl:when test="contains($vText, 'public domain')">
-                        <accessCondition type="use and reproduction" xlink:href="http://rightsstatement.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
+                        <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:if test="$vText != ''">
