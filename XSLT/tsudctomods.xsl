@@ -73,10 +73,10 @@
             <xsl:when test="contains(., 'library-digital-collections/')">
                 <typeOfResource>still image</typeOfResource>
             </xsl:when>
-            <xsl:when test="contains(., 'catalogues/')">
+            <xsl:when test="contains(., 'catalogues')">
                 <typeOfResource>text</typeOfResource>
             </xsl:when>
-            <xsl:when test="contains(., 'yearbooks/')">
+            <xsl:when test="contains(., 'yearbooks')">
                 <typeOfResource>text</typeOfResource>
             </xsl:when>
         </xsl:choose>
