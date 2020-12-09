@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2020-12-09T15:21:54Z</responseDate>
+    <request verb="ListRecords" set="publication:library-digital-collections" metadataPrefix="oai_dc">https://digitalscholarship.tnstate.edu/do/oai/</request>
+    <ListRecords>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1079</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Multi Women Sports</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>Multi Women Sports.</dc:description>
+                    <dc:date>1939-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/80</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1079/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Sports; Physical education;</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1079/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1026</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>President Hale and Tennessee State's First Faculty</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>Black and White Photograph of President Hale and the School's First Faculty Members.</dc:description>
+                    <dc:date>1912-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/27</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1026/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>College administrators</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1026/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1027</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>William J. Hale and family</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>W. J. Hale, the First President of Tennesse Agricultural and Industrial State Normal School (Now Tennessee State University), Was Married to the Former Hattie E. Hodgkins in 1913. He Is Pictured Here With His Wife and Young Daughter. They Also Had Two Sons.</dc:description>
+                    <dc:date>2020-05-12T22:26:32Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/28</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1027/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>College presidents;Family</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1027/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1028</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>William J. Hale, President</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>A Black and White Photograph of William J. Hale, the First President (1912-1943) of Tennessee State University.</dc:description>
+                    <dc:date>1912-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/29</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1028/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>College presidents</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1028/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1029</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Soon After the Opening, 1912</dc:title>
+                    <dc:creator>Tennessee State Univeristy</dc:creator>
+                    <dc:description>Black and White Photograph of an Opening Class, June 1912.</dc:description>
+                    <dc:date>1912-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/30</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1029/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Students</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1029/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1030</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Men's Dormitory, 1912</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>Black and White Photograph of the Men's Dormitory Taken in 1912.</dc:description>
+                    <dc:date>1912-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/31</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1030/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Dormitories;Universities &amp; colleges</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1030/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1031</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Students and Graduates of the Normal Department of Tennessee Agricultural and Industrial State Normal School, 1913-1914</dc:title>
+                    <dc:creator>Lay Bros Photography</dc:creator>
+                    <dc:description>Students and Graduates of the Tennessee Agricultural and Industrial State Normal School Pose at Graduation, 1914.</dc:description>
+                    <dc:date>1914-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/32</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1031/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Students</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1031/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1032</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Normal School Graduating Class of 1914, Tennessee Agricultural and Industrial State Normal School</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>Pictured Here Is the Graduating Class of the Normal Department of Tennessee Agricultural and Industrial State Normal School in 1914. School President William J. Hale Stands in the Center of the Photograph. This School Was a Precursor to Tennessee State University.</dc:description>
+                    <dc:date>1914-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/33</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1032/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Graduation ceremonies; Universities &amp; colleges</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1032/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:library-digital-collections-1033</identifier>
+                <datestamp>2020-05-12T15:56:02Z</datestamp>
+                <setSpec>publication:library-digital-collections</setSpec>
+                <setSpec>publication:library-historical-collections</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Normal School Commencement, 1915</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:description>Black and white Photograph of the Normal School Commencement Taken in 1915.</dc:description>
+                    <dc:date>1915-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>image/jpeg</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/library-digital-collections/34</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/context/library-digital-collections/article/1033/type/native/viewcontent</dc:identifier>
+                    <dc:rights>Physical Rights are retained by Special Collections and Archives - Tennessee State University. CopyrightÂ© is retained in accordance with U.S. Copyright laws. To order a reproduction or inquire about permission to publish, please contact shull@tnstate.edu. (Please cite object file name of collection).</dc:rights>
+                    <dc:source>Tennessee State University Library Digital Collections</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Graduation ceremonies;Universities &amp; colleges</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/library-digital-collections/1033/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1023</identifier>
+                <datestamp>2019-09-20T22:24:04Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Tennessean 1965</dc:title>
+                    <dc:creator>Tennessee Agricultural and Industrial State University</dc:creator>
+                    <dc:date>1965-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/24</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1023&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee Agricultural and Industrial State University</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1023/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1013</identifier>
+                <datestamp>2019-09-20T22:24:04Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Tennessean 1955</dc:title>
+                    <dc:creator>Tennessee Agricultural and Industrial State University</dc:creator>
+                    <dc:date>1955-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/14</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1013&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee Agricultural and Industrial State University</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1013/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1048</identifier>
+                <datestamp>2019-09-22T03:21:21Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Tennessean 1991</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>1991-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/49</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1048&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1048/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1005</identifier>
+                <datestamp>2019-09-20T22:24:04Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Ayeni 1941</dc:title>
+                    <dc:creator>Tennessee Agricultural and Industrial State College</dc:creator>
+                    <dc:date>1941-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/6</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1005&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee Agricultural and Industrial State College</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1005/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1006</identifier>
+                <datestamp>2019-09-20T22:24:04Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Ayeni 1942</dc:title>
+                    <dc:creator>Tennessee Agricultural and Industrial State College</dc:creator>
+                    <dc:date>1942-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/7</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1006&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee Agricultural and Industrial State College</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1006/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1037</identifier>
+                <datestamp>2019-09-22T03:21:21Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Tennessean 1979</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>1979-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/38</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1037&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1037/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:yearbooks-1051</identifier>
+                <datestamp>2019-09-22T03:21:21Z</datestamp>
+                <setSpec>publication:yearbooks</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Tennessean 1994</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>1994-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/yearbooks/52</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1051&amp;context=yearbooks</dc:identifier>
+                    <dc:source>Tennessee State University Yearbooks</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>yearbooks</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/yearbooks/1051/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:graduatecatalogues-1002</identifier>
+                <datestamp>2019-09-29T01:48:21Z</datestamp>
+                <setSpec>publication:graduatecatalogues</setSpec>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Graduate Catalogue 2011-2013</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>2013-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/graduatecatalogues/3</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1002&amp;context=graduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Graduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/graduatecatalogues/1002/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:graduatecatalogues-1001</identifier>
+                <datestamp>2019-09-29T01:48:13Z</datestamp>
+                <setSpec>publication:graduatecatalogues</setSpec>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Graduate Catalogue 2009-2011</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>2011-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/graduatecatalogues/2</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1001&amp;context=graduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Graduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/graduatecatalogues/1001/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:graduatecatalogues-1003</identifier>
+                <datestamp>2019-09-29T01:48:50Z</datestamp>
+                <setSpec>publication:graduatecatalogues</setSpec>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Graduate Catalogue 2013-2015</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>2015-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/graduatecatalogues/4</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1003&amp;context=graduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Graduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/graduatecatalogues/1003/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:graduatecatalogues-1004</identifier>
+                <datestamp>2019-09-29T01:49:00Z</datestamp>
+                <setSpec>publication:graduatecatalogues</setSpec>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Graduate Catalogue 2015-2017</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>2017-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/graduatecatalogues/5</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1004&amp;context=graduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Graduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/graduatecatalogues/1004/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:graduatecatalogues-1005</identifier>
+                <datestamp>2019-09-29T01:49:06Z</datestamp>
+                <setSpec>publication:graduatecatalogues</setSpec>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Graduate Catalogue 2017-2019</dc:title>
+                    <dc:creator>Tennessee State University</dc:creator>
+                    <dc:date>2019-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/graduatecatalogues/6</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1005&amp;context=graduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Graduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/graduatecatalogues/1005/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:undergraduatecatalogues-1012</identifier>
+                <datestamp>2019-10-16T14:30:05Z</datestamp>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+                <setSpec>publication:undergraduatecatalogues</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Undergraduate Catalogue 1993-1995</dc:title>
+                    <dc:date>1995-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/undergraduatecatalogues/13</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1012&amp;context=undergraduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Undergraduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee State University</dc:subject>
+                    <dc:subject>Catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/undergraduatecatalogues/1012/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:digitalscholarship.tnstate.edu:undergraduatecatalogues-1037</identifier>
+                <datestamp>2019-10-16T14:30:05Z</datestamp>
+                <setSpec>publication:allcatalogues</setSpec>
+                <setSpec>publication:archives</setSpec>
+                <setSpec>publication:undergraduatecatalogues</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Undergraduate Catalogue 1954-1955</dc:title>
+                    <dc:date>1955-01-01T08:00:00Z</dc:date>
+                    <dc:type>text</dc:type>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/undergraduatecatalogues/38</dc:identifier>
+                    <dc:identifier>https://digitalscholarship.tnstate.edu/cgi/viewcontent.cgi?article=1037&amp;context=undergraduatecatalogues</dc:identifier>
+                    <dc:source>Tennessee State University Undergraduate Catalogues</dc:source>
+                    <dc:publisher>Digital Scholarship @ Tennessee State University</dc:publisher>
+                    <dc:subject>Tennessee Agricultural and Industrial State University</dc:subject>
+                    <dc:subject>Catalogues</dc:subject>
+                    <dc:description>https://digitalscholarship.tnstate.edu/undergraduatecatalogues/1037/thumbnail.jpg</dc:description>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+    </ListRecords>
+</OAI-PMH>
