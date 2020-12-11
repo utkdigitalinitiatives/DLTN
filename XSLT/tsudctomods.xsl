@@ -30,11 +30,10 @@
             <!-- title -->
             <xsl:apply-templates select="dc:title"/>
             
-            <!-- identifier -->
-            <xsl:apply-templates select="dc:identifier"/>
-            
-            <!-- abstract or thumbnail -->
-            <xsl:apply-templates select="dc:description"/>
+            <!-- thumbnail and object URL  -->
+            <location>
+            <xsl:apply-templates select="dc:description[starts-with(normalize-space(.), 'https://')] | dc:identifier[starts-with(normalize-space(.), 'https://')]"/>
+            </location>
             
             <!-- creator -->
             <xsl:apply-templates select="dc:creator"/>
@@ -62,39 +61,26 @@
         <titleInfo><title><xsl:apply-templates/></title></titleInfo>
     </xsl:template>
     
-    <!-- identifier / object URL / typeOfResource based off collection -->
-    <xsl:template match='dc:identifier'>
+    <!-- URLs -->
+    <xsl:template match="dc:description | dc:identifier">
         <xsl:choose>
-            <xsl:when test="contains(., 'library-digital-collections/')">
-                <typeOfResource>still image</typeOfResource>
-            </xsl:when>
-            <xsl:when test="contains(., 'catalogues/')">
-                <typeOfResource>text</typeOfResource>
-            </xsl:when>
-            <xsl:when test="contains(., 'yearbooks/')">
-                <typeOfResource>text</typeOfResource>
+            <xsl:when test="ends-with(., '.jpg')">
+                <url access="preview"><xsl:apply-templates/></url>
             </xsl:when>
             <xsl:when test="matches(., '[0-9]$')">
-                <location>
-                    <url usage="primary" access="object in context"><xsl:apply-templates/></url>
-                </location>
+                <url usage="primary" access="object in context"><xsl:apply-templates/></url>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    
-    <!-- abstract or thumbnail -->
+     
+    <!-- abstract
     <xsl:template match="dc:description">
         <xsl:choose>
-            <xsl:when test="starts-with(., 'https://')">
-                <location>
-                    <url access="preview"><xsl:apply-templates/></url>
-                </location>
-            </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="(., '^[A-Z]')">
                 <abstract><xsl:apply-templates/></abstract>
-            </xsl:otherwise>
+            </xsl:when>
         </xsl:choose>
-    </xsl:template>
+    </xsl:template> -->
     
     <!-- creator -->
     <xsl:template match="dc:creator">
@@ -135,6 +121,17 @@
     
     <!-- relatedItem -->
     <xsl:template match="dc:source">
+        <xsl:choose>
+            <xsl:when test="contains(., 'Digital Collections')">
+                <typeOfResource>still image</typeOfResource>
+            </xsl:when>
+            <xsl:when test="contains(., 'Catalogues')">
+                <typeOfResource>text</typeOfResource>
+            </xsl:when>
+            <xsl:when test="contains(., 'Yearbooks')">
+                <typeOfResource>text</typeOfResource>
+            </xsl:when>
+        </xsl:choose>
         <relatedItem displayLabel="Collection" type="host">
             <titleInfo>
                 <title><xsl:value-of select="normalize-space(.)"/></title>
