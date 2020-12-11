@@ -65,19 +65,19 @@
     <!-- identifier / object URL / typeOfResource based off collection -->
     <xsl:template match='dc:identifier'>
         <xsl:choose>
+            <xsl:when test="contains(., 'library-digital-collections/')">
+                <typeOfResource>still image</typeOfResource>
+            </xsl:when>
+            <xsl:when test="contains(., 'catalogues/')">
+                <typeOfResource>text</typeOfResource>
+            </xsl:when>
+            <xsl:when test="contains(., 'yearbooks/')">
+                <typeOfResource>text</typeOfResource>
+            </xsl:when>
             <xsl:when test="matches(., '[0-9]$')">
                 <location>
                     <url usage="primary" access="object in context"><xsl:apply-templates/></url>
                 </location>
-            </xsl:when>
-            <xsl:when test="contains(., 'library-digital-collections/')">
-                <typeOfResource>still image</typeOfResource>
-            </xsl:when>
-            <xsl:when test="contains(., 'catalogues')">
-                <typeOfResource>text</typeOfResource>
-            </xsl:when>
-            <xsl:when test="contains(., 'yearbooks')">
-                <typeOfResource>text</typeOfResource>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -108,11 +108,7 @@
     
     <!-- originInfo -->
     <xsl:template match="dc:date">
-        <xsl:choose>
-            <xsl:when test="starts-with(., '19')">
-                <originInfo><dateCreated><xsl:apply-templates select="substring(., 1, string-length(.) -10)"/></dateCreated></originInfo>
-            </xsl:when>
-        </xsl:choose>
+        <originInfo><dateCreated><xsl:copy-of select="substring(., 1, string-length(.) -10)"></xsl:copy-of></dateCreated></originInfo>
     </xsl:template>
     
     <!-- subject(s) -->
