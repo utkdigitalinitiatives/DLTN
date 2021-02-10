@@ -51,6 +51,14 @@
                     <!-- form -->
                     <xsl:apply-templates select="dc:type"/>
                     
+                    <!-- recordContentSource -->
+                    <recordInfo>
+                        <recordContentSource>Knox County Public Library</recordContentSource>
+                    </recordInfo>
+                    
+                    <!-- accessCondition -->
+                    <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/CNE/1.0/">Copyright Not Evaluated</accessCondition>
+                    
                 </mods>
             </xsl:if>
         </xsl:if>
@@ -128,13 +136,5 @@
         </physicalDescription>
         <typeOfResource>text</typeOfResource>
     </xsl:template>
-    
-    <!-- recordContentSource -->
-    <recordInfo>
-        <recordContentSource>Knox County Public Library</recordContentSource>
-    </recordInfo>
-    
-    <!-- accessCondition -->
-    <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/CNE/1.0/">Copyright Not Evaluated</accessCondition>
   
 </xsl:stylesheet>
