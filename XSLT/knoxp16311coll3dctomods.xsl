@@ -19,11 +19,11 @@
         <xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
     
+    <xsl:template match="oai_dc:dc[dc:title[contains(., '_')] | dc:identifier[matches(., '^.*\.tif$')]]"/>
+    
     <!-- match metadata -->
     <xsl:template match="oai_dc:dc">
-        <xsl:if test="dc:title[not(contains(., '_'))]">
-            <xsl:if test="dc:identifier[not(matches(., '[.]tif$'))]">
-            <!-- <xsl:if test="dc:identifier[not(ends-with(., '.tif'))]"> -->
+        
         <!-- match the document root and return a MODS record -->
                 <mods xmlns="http://www.loc.gov/mods/v3" version="3.5"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -60,8 +60,6 @@
                     <accessCondition type="use and reproduction" xlink:href="http://rightsstatements.org/vocab/CNE/1.0/">Copyright Not Evaluated</accessCondition>
                     
                 </mods>
-            </xsl:if>
-        </xsl:if>
     </xsl:template>
     
     <!-- title -->
@@ -81,9 +79,6 @@
                     <url access="preview"><xsl:value-of select="$identifier-preview-url"/></url>
                 </location>
             </xsl:when>
-            <xsl:otherwise>
-                <identifier><xsl:value-of select="normalize-space(.)"/></identifier>
-            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
@@ -104,7 +99,7 @@
     
     <!-- originInfo -->
     <xsl:template match="dc:date">
-        <originInfo><dateCreated><xsl:apply-templates/></dateCreated></originInfo>
+        <originInfo><dateIssued><xsl:apply-templates/></dateIssued></originInfo>
     </xsl:template>
     
     <!-- subject(s) -->
