@@ -19,8 +19,6 @@
         <xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
     
-    <xsl:template match="oai_dc:dc[dc:title[contains(., '_')] | dc:identifier[matches(., '^.*\.tif$')]]"/>
-    
     <!-- match metadata -->
     <xsl:template match="oai_dc:dc">
         
@@ -41,6 +39,9 @@
                     
                     <!-- creator -->
                     <xsl:apply-templates select="dc:creator"/>
+                    
+                    <!-- contributor -->
+                    <xsl:apply-templates select="dc:contributor"/>
                     
                     <!-- originInfo> -->
                     <xsl:apply-templates select="dc:date"/>
@@ -79,6 +80,9 @@
                     <url access="preview"><xsl:value-of select="$identifier-preview-url"/></url>
                 </location>
             </xsl:when>
+            <xsl:otherwise>
+                <identifier><xsl:value-of select="normalize-space(.)"/></identifier>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
@@ -87,49 +91,79 @@
         <abstract><xsl:apply-templates/></abstract>
     </xsl:template>
     
-    <!-- contributor -->
+    <!-- creator and contributor -->
     <xsl:template match="dc:creator">
         <name>
             <namePart><xsl:apply-templates/></namePart>
             <role>
-                <roleTerm authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+                <roleTerm authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+            </role>
+        </name>
+    </xsl:template>
+    
+    <xsl:template match="dc:contributor">
+        <name>
+            <namePart><xsl:apply-templates/></namePart>
+            <role>
+                <roleTerm authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ctb">Contributor</roleTerm>
             </role>
         </name>
     </xsl:template>
     
     <!-- originInfo -->
     <xsl:template match="dc:date">
-        <originInfo><dateIssued><xsl:apply-templates/></dateIssued></originInfo>
+        <xsl:choose>
+            <xsl:when test="contains(., 'unknown')"/>
+            <xsl:otherwise>
+                <originInfo><dateCreated><xsl:apply-templates/></dateCreated></originInfo>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <!-- subject(s) -->
-    <!-- for subjects, whether they contain a ';' or not -->
+    <!-- for subjects, whether they contain a ';' or ',' or not -->
     <xsl:template match="dc:subject">
         <xsl:variable name="subj-tokens" select="tokenize(., '; ')"/>
         <xsl:for-each select="$subj-tokens">
-            <xsl:choose>
-                <xsl:when test="ends-with(., ';')">
-                    <subject>
-                        <topic>
-                            <xsl:value-of select="substring(., 1, string-length(.) -1)"/>
-                        </topic>
-                    </subject>
-                </xsl:when>
-                <xsl:otherwise>
-                    <subject>
-                        <topic><xsl:value-of select="normalize-space(.)"/></topic>
-                    </subject>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:variable name="subj-tokens" select="tokenize(., ', ')"/>
+            <xsl:for-each select="$subj-tokens">
+                <xsl:choose>
+                    <xsl:when test="ends-with(., ';')">
+                        <subject>
+                            <topic>
+                                <xsl:value-of select="substring(., 1, string-length(.) -1)"/>
+                            </topic>
+                        </subject>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <subject>
+                            <topic><xsl:value-of select="normalize-space(.)"/></topic>
+                        </subject>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
     
     <!-- typeOfResource -->
     <xsl:template match="dc:type">
         <physicalDescription>
-            <form><xsl:apply-templates/></form>
+            <form><xsl:value-of select="lower-case(.)"/></form>
         </physicalDescription>
-        <typeOfResource>text</typeOfResource>
+            <xsl:choose>
+                <xsl:when test="contains(., 'college catalog') or contains(., 'manuscript') or contains(., 'ephemera') or starts-with(., 'book') or contains(., 'periodical') or contains(., 'booklet') or contains(., 'correspondence') or contains(., 'catalog') or contains(., 'correspondence') or contains(., 'magazine') or contains(., 'newspaper') or contains(., 'pamphlet') or contains(., 'college yearbook')"> 
+                    <typeOfResource>text</typeOfResource>
+                </xsl:when>
+                <xsl:when test="contains(., 'scrapbook') or contains(., 'illustration') or contains(., 'advertis') or contains(., 'drawing') or contains(., 'postcard') or contains(., 'ambrotype') or contains(., 'miniature') or matches(., 'sketchbook') or contains(., 'lithograph') or contains(., 'broadside') or contains(., 'etching') or contains(., 'photograph')">
+                    <typeOfResource>still image</typeOfResource>
+                </xsl:when>
+                <xsl:when test="contains(., 'sheet music')">
+                    <typeOfResource>notated music</typeOfResource>
+                </xsl:when>
+                <xsl:when test="contains(., 'map')">
+                    <typeOfResource>cartographic</typeOfResource>
+                </xsl:when>
+            </xsl:choose>
     </xsl:template>
   
 </xsl:stylesheet>
