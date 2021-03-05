@@ -88,7 +88,7 @@
     </xsl:template>
     
     <!-- abstract -->
-    <xsl:template match="dc:description">
+    <xsl:template match="dc:description[1]">
         <abstract><xsl:apply-templates/></abstract>
     </xsl:template>
     
