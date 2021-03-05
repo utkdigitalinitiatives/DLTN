@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:oai_dc='http://www.openarchives.org/OAI/2.0/oai_dc/' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    version="2.0" xmlns="http://www.loc.gov/mods/v3">
+    version="2.0" xmlns="http://www.loc.gov/mods/v3"
+    exclude-result-prefixes="dc oai_dc">
     
     <!-- output settings -->
     <xsl:output encoding="UTF-8" method="xml" omit-xml-declaration="yes" indent="yes"/>
