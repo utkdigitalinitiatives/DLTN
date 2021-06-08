@@ -65,6 +65,7 @@ utk_tdh
 utk_tenncities
 utk_tennessean
 utk_tenngirl
+utk_tennvolsmag
 utk_thompson
 utk_torch
 utk_univmonthly
